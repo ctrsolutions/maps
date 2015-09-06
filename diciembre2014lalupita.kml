@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>diciembre2014</name>
+	<open>1</open>
+	<Document>
+		<name>ZonaLagunadelvalle.kml</name>
+		<open>1</open>
+		<Style id="s_ylw-pushpin1">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>2.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff0000</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl1">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>2.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff0000</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff0000aa</color>
+				<width>3.3</width>
+			</LineStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff0000aa</color>
+				<width>3.3</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Zona Laguna del valle</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-96.16530883150125,19.16660713555936,0 -96.1659382003846,19.16661020154945,0 -96.16595581146892,19.16625312591654,0 -96.16604739780193,19.16590328148619,0 -96.16585869805294,19.16586494405962,0 -96.16556873216463,19.16582237252579,0 -96.16499645682669,19.16578202027861,0 -96.16458834536419,19.16573739483566,0 -96.16457269000708,19.16581299653297,0 -96.1646871650814,19.16598741445806,0 -96.16468342085784,19.16622433631884,0 -96.16463321783114,19.16648024007249,0 -96.1644911013034,19.16647014416393,0 -96.16434180917084,19.16645029722344,0 -96.1642789839871,19.16634653189789,0 -96.16406218429717,19.16637020439816,0 -96.16402683798209,19.16657959946805,0 -96.16387759484613,19.16730978638996,0 -96.16366733533792,19.16832913794932,0 -96.16372801959497,19.16854700872896,0 -96.16401975092693,19.16856859047272,0 -96.16439706788131,19.16863469334586,0 -96.16467351718282,19.16863978918195,0 -96.16493467634274,19.16832790822019,0 -96.16490068453906,19.1680650113289,0 -96.16491794946239,19.16792108988239,0 -96.16512179401902,19.16793411835646,0 -96.16519223076072,19.16727194127812,0 -96.16530883150125,19.16660713555936,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Jose Clemente Orozo</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-96.16405868090774,19.16858210012887,0 -96.16410905995583,19.16806344186334,0 -96.16419752928306,19.16724810045369,0 -96.16425674848539,19.16670367222886,0 -96.16427995841026,19.16652760824479,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>David Alfaro Siqueiros</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-96.16490261135351,19.16791048420325,0 -96.16509989899981,19.16598121414737,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Diego Rivera</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-96.16441285584813,19.16862644182194,0 -96.16457487963319,19.16728896742963,0 -96.16465337036971,19.16649597126012,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Rufino Tamayo</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-96.16590431931243,19.16606106350909,0 -96.16515432449796,19.16598385071167,0 -96.16511116136222,19.16598050050368,0 -96.16498628433763,19.16597592564995,0 -96.16479925247998,19.16597564266579,0 -96.16472492826942,19.16597028929346,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Francisco Prens</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-96.16591977193092,19.16648298293124,0 -96.16555061038855,19.16644912328636,0 -96.16526907255866,19.16641930750673,0 -96.16505926541524,19.1663974934124,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</Folder>
+</kml>
